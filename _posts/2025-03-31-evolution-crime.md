@@ -4,7 +4,7 @@ title:  "How has drug-related crime evolved in the different districts of the ci
 date:   2025-03-31 14:34:25
 categories: 
 tags: 
-image: /assets/article_images/2025-03-31-evolution-crime/tender.JPG
+image: /assets/article_images/2025-03-31-evolution-crime/tender.jpg
 image2: /assets/article_images/2014-11-30-mediator_features/night-track-mobile.JPG
 ---
 
