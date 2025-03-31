@@ -4,7 +4,7 @@ title:  "Uncovering San Francisco’s Drug Crime Hotspots"
 date:   2025-03-31 14:34:25
 categories: 
 tags: 
-image: /assets/article_images/2025-03-31-map-crimes/tents.JPG
+image: /assets/article_images/2025-03-31-map-crimes/tents.jpg
 image2: /assets/article_images/2014-11-30-mediator_features/night-track-mobile.JPG
 ---
 
