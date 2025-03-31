@@ -4,11 +4,11 @@ gems:
   - jekyll-paginate
 
 # Site settings
-title: "Mediator"
+title: "Drug/Narcotic crimes in San Francisco"
 description: > # this means to ignore newlines until "email:"
-   A Jekyll theme - Medium inspired
+   An analysis of the evolution of drug/narcotic crimes in San Francisco using data published by the City and County of San Francisco about Police Department Incident Reports. You can get an overview of the dataset and project in the about section and read our posts for insights into how drug-related crimes define the city's recent history.
 
-email: a-mail@mail.mail
+email: s232489@student.dtu.dk, s232935@student.dtu.dk
 #blog logo
 logo: "/assets/images/df_logo.jpg"
 float_logo: true # true, false (default)
@@ -16,8 +16,8 @@ float_logo: true # true, false (default)
 # blog cover
 cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
 
-name: 'Dirk Fabisch'
-author: 'Dirk Fabisch'
+name: 'Vasiliki, Rita (s232489, s232935)'
+author: 'Vasiliki, Rita (s232489, s232935)'
 author_image: "/assets/images/author.jpg"
 
 paginate:	5
@@ -25,7 +25,7 @@ paginate:	5
 url: "http://myblog.***.***" # the base hostname & protocol for your site
 baseurl: ""
 #used to display twitter cards
-twitter_handle: '@dirkfabisch'
+#twitter_handle: '@dirkfabisch'
 
 #fill in disqus shortname to use disqus
 #disqus: disqus-shortname
@@ -33,13 +33,13 @@ twitter_handle: '@dirkfabisch'
 #google_analytics: UA-XXXXX-X
 
 # social icons and sharing options
-social:
-  - icon:	twitter
-    url:	https://twitter.com/dirkfabisch
-    desc: Follow me on twitter
-    share_url: http://twitter.com/share
-    share_title: ?text=
-    share_link: "&amp;url="
+#social:
+#  - icon:	twitter
+#    url:	https://twitter.com/dirkfabisch
+#    desc: Follow me on twitter
+#    share_url: http://twitter.com/share
+#    share_title: ?text=
+#    share_link: "&amp;url="
 
 #  - icon:	facebook
 #    url:	https://facebook.com/???
@@ -48,12 +48,12 @@ social:
 #    share_title: ?t=
 #    share_link: "&amp;u="
 
-  - icon:	github
-    url:	https://github.com/dirkfabisch
-    desc:	Fork me on github
-    share_url:
-    share_title:
-    share_link:
+#  - icon:	github
+#    url:	https://github.com/dirkfabisch
+#    desc:	Fork me on github
+#    share_url:
+#    share_title:
+#    share_link:
 
 #  - icon:	google-plus
 #    url:	https://google.com/???

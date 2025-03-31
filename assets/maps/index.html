@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Drug/Narcotic Crime Heatmaps by Year Block</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        h1 { font-size: 24px; }
+        .tab-content iframe {
+            width: 80%; /* Adjusted width */
+            height: 400px; /* Adjusted height */
+            border: none;
+            margin: 20px auto; /* Added margin for better positioning */
+        }
+        .tabs button {
+            padding: 10px 20px;
+            cursor: pointer;
+            border: none;
+            background: #ccc;
+            margin: 5px;
+        }
+        .tabs button.active {
+            background-color: #444;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Drug/Narcotic Crime Heatmaps in San Francisco</h1>
+
+<div class="tabs">
+    <button class="tablink active" onclick="showMap('map1')">2009–2012</button>
+    <button class="tablink" onclick="showMap('map2')">2013–2016</button>
+    <button class="tablink" onclick="showMap('map3')">2017–2020</button>
+    <button class="tablink" onclick="showMap('map4')">2021–2024</button>
+</div>
+
+<div class="tab-content">
+    <iframe id="map1" src="drug_narcotic_2009_2012.html"></iframe>
+    <iframe id="map2" src="drug_narcotic_2013_2016.html" style="display:none;"></iframe>
+    <iframe id="map3" src="drug_narcotic_2017_2020.html" style="display:none;"></iframe>
+    <iframe id="map4" src="drug_narcotic_2021_2024.html" style="display:none;"></iframe>
+</div>
+
+<script>
+    function showMap(mapId) {
+        document.querySelectorAll('iframe').forEach(el => el.style.display = 'none');
+        document.getElementById(mapId).style.display = 'block';
+        document.querySelectorAll('.tablink').forEach(btn => btn.classList.remove('active'));
+        event.target.classList.add('active');
+    }
+</script>
+
+</body>
+</html>
